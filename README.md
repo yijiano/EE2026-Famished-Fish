@@ -5,5 +5,5 @@
 
 - [Zhang Yijian](https://github.com/yijiano)
 - [Brian Chan]()
-- [Cai Jiali]()
-- [Hoe Zhan Hao]()
+- [Cai Jiali](https://github.com/kemilii)
+- [Hoe Zhan Hao](https://github.com/H-ZhanHao)
