@@ -1,0 +1,392 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+* Section (5) - CONFIGURATION SETTINGS/FILES
+*  This section summarizes the configuration settings/files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = integrate_1
+Directory = C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<bg1st_synth_1>
+<bg2nd_synth_1>
+<bg3rd_synth_1>
+<load1_synth_1>
+<load2_synth_1>
+<load3_synth_1>
+<load4_synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<bg1st>
+C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/.Xil/Vivado-32428-bopes/PrjAr/_X_/integrate_1.srcs/sources_1/ip/bg1st.coe
+
+<bg2nd>
+C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/.Xil/Vivado-32428-bopes/PrjAr/_X_/integrate_1.srcs/sources_1/ip/bg2nd.coe
+
+<bg3rd>
+C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/.Xil/Vivado-32428-bopes/PrjAr/_X_/integrate_1.srcs/sources_1/ip/bg3rd.coe
+
+<load1>
+C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/.Xil/Vivado-32428-bopes/PrjAr/_X_/integrate_1.srcs/sources_1/ip/load1.coe
+
+<load2>
+C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/.Xil/Vivado-32428-bopes/PrjAr/_X_/integrate_1.srcs/sources_1/ip/load2.coe
+
+<load3>
+C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/.Xil/Vivado-32428-bopes/PrjAr/_X_/integrate_1.srcs/sources_1/ip/load3.coe
+
+<load4>
+C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/.Xil/Vivado-32428-bopes/PrjAr/_X_/integrate_1.srcs/sources_1/ip/load4.coe
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/archive_project_summary.txt
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./integrate_1.srcs/sources_1/imports/Desktop/Oled_Display.v
+./integrate_1.srcs/sources_1/new/Top_Student.v
+./integrate_1.srcs/sources_1/new/Top_Student_C.v
+./integrate_1.srcs/sources_1/new/bubble_display.v
+./integrate_1.srcs/sources_1/new/clk_6p25M.v
+./integrate_1.srcs/sources_1/new/shark_control/clock_module.v
+./integrate_1.srcs/sources_1/new/shark_control/clock_module_m.v
+./integrate_1.srcs/sources_1/new/shark_control/colour_constants.v
+./integrate_1.srcs/sources_1/new/cursor_handler.v
+./integrate_1.srcs/sources_1/new/fish_display.v
+./integrate_1.srcs/sources_1/new/shark_control/flexible_clock.v
+./integrate_1.srcs/sources_1/new/shark_control/four_bit_lfsr.v
+./integrate_1.srcs/sources_1/new/health_led.v
+./integrate_1.srcs/sources_1/new/shark_control/line_drawer.v
+./integrate_1.srcs/sources_1/new/loading_screen.v
+./integrate_1.srcs/sources_1/new/lose_page.v
+./integrate_1.srcs/sources_1/new/menu_display.v
+./integrate_1.srcs/sources_1/new/mouse_oled_mapper.v
+./integrate_1.srcs/sources_1/new/password_logic.v
+./integrate_1.srcs/sources_1/new/rand_order_logic.v
+./integrate_1.srcs/sources_1/new/shark_control/score_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed10_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed11_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed12_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed13_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed14_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed15_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed16_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed17_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed18_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed1_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed2_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed3_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed4_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed5_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed6_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed7_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed8_display.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed9_display.v
+./integrate_1.srcs/sources_1/new/seaweed_collision.v
+./integrate_1.srcs/sources_1/new/seaweed/seaweed_control.v
+./integrate_1.srcs/sources_1/new/seaweed_cutting_minigame.v
+./integrate_1.srcs/sources_1/new/seaweed_order_logic.v
+./integrate_1.srcs/sources_1/new/seaweed_strand.v
+./integrate_1.srcs/sources_1/new/seaweed_strand_hover.v
+./integrate_1.srcs/sources_1/new/shark_display.v
+./integrate_1.srcs/sources_1/new/shark_control/target_handler.v
+./integrate_1.srcs/sources_1/imports/Desktop/Mouse_Control.vhd
+./integrate_1.srcs/sources_1/imports/Desktop/Ps2Interface.vhd
+./integrate_1.srcs/sources_1/new/Top_Control.v
+./integrate_1.srcs/sources_1/imports/MouseAudioDisplay/archive_project_summary.txt
+./integrate_1.srcs/sources_1/imports/res/weights.coe
+./integrate_1.srcs/sources_1/imports/res/00.coe
+./integrate_1.srcs/sources_1/imports/MODS/archive_project_summary.txt
+./integrate_1.srcs/sources_1/ip/bg1st.coe
+./integrate_1.srcs/sources_1/ip/bg2nd.coe
+./integrate_1.srcs/sources_1/ip/bg3rd.coe
+./integrate_1.srcs/sources_1/ip/load1.coe
+./integrate_1.srcs/sources_1/ip/load2.coe
+./integrate_1.srcs/sources_1/ip/load3.coe
+./integrate_1.srcs/sources_1/ip/load4.coe
+./integrate_1.srcs/sources_1/imports/integrate_1/archive_project_summary.txt
+
+<constrs_1>
+./integrate_1.srcs/constrs_1/new/constraints.xdc
+
+<sim_1>
+None
+
+<bg1st>
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st.xci
+./integrate_1.srcs/sources_1/ip/bg1st/doc/blk_mem_gen_v8_4_changelog.txt
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st.vho
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st.veo
+./integrate_1.srcs/sources_1/ip/bg1st/summary.log
+./integrate_1.srcs/sources_1/ip/bg1st/misc/blk_mem_gen_v8_4.vhd
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st.mif
+./integrate_1.srcs/sources_1/ip/bg1st/simulation/blk_mem_gen_v8_4.v
+./integrate_1.srcs/sources_1/ip/bg1st/sim/bg1st.v
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st.dcp
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st_stub.v
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st_stub.vhdl
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st_sim_netlist.v
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st_sim_netlist.vhdl
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st_ooc.xdc
+./integrate_1.srcs/sources_1/ip/bg1st/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./integrate_1.srcs/sources_1/ip/bg1st/synth/bg1st.vhd
+./integrate_1.srcs/sources_1/ip/bg1st/bg1st.xml
+./integrate_1.srcs/sources_1/ip/bg1st.coe
+
+<bg2nd>
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd.xci
+./integrate_1.srcs/sources_1/ip/bg2nd/doc/blk_mem_gen_v8_4_changelog.txt
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd.vho
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd.veo
+./integrate_1.srcs/sources_1/ip/bg2nd/summary.log
+./integrate_1.srcs/sources_1/ip/bg2nd/misc/blk_mem_gen_v8_4.vhd
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd.mif
+./integrate_1.srcs/sources_1/ip/bg2nd/simulation/blk_mem_gen_v8_4.v
+./integrate_1.srcs/sources_1/ip/bg2nd/sim/bg2nd.v
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd.dcp
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd_stub.v
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd_stub.vhdl
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd_sim_netlist.v
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd_sim_netlist.vhdl
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd_ooc.xdc
+./integrate_1.srcs/sources_1/ip/bg2nd/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./integrate_1.srcs/sources_1/ip/bg2nd/synth/bg2nd.vhd
+./integrate_1.srcs/sources_1/ip/bg2nd/bg2nd.xml
+./integrate_1.srcs/sources_1/ip/bg2nd.coe
+
+<bg3rd>
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd.xci
+./integrate_1.srcs/sources_1/ip/bg3rd/doc/blk_mem_gen_v8_4_changelog.txt
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd.vho
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd.veo
+./integrate_1.srcs/sources_1/ip/bg3rd/summary.log
+./integrate_1.srcs/sources_1/ip/bg3rd/misc/blk_mem_gen_v8_4.vhd
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd.mif
+./integrate_1.srcs/sources_1/ip/bg3rd/simulation/blk_mem_gen_v8_4.v
+./integrate_1.srcs/sources_1/ip/bg3rd/sim/bg3rd.v
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd.dcp
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd_stub.v
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd_stub.vhdl
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd_sim_netlist.v
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd_sim_netlist.vhdl
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd_ooc.xdc
+./integrate_1.srcs/sources_1/ip/bg3rd/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./integrate_1.srcs/sources_1/ip/bg3rd/synth/bg3rd.vhd
+./integrate_1.srcs/sources_1/ip/bg3rd/bg3rd.xml
+./integrate_1.srcs/sources_1/ip/bg3rd.coe
+
+<load1>
+./integrate_1.srcs/sources_1/ip/load1/load1.xci
+./integrate_1.srcs/sources_1/ip/load1/doc/blk_mem_gen_v8_4_changelog.txt
+./integrate_1.srcs/sources_1/ip/load1/load1.vho
+./integrate_1.srcs/sources_1/ip/load1/load1.veo
+./integrate_1.srcs/sources_1/ip/load1/summary.log
+./integrate_1.srcs/sources_1/ip/load1/misc/blk_mem_gen_v8_4.vhd
+./integrate_1.srcs/sources_1/ip/load1/load1.mif
+./integrate_1.srcs/sources_1/ip/load1/simulation/blk_mem_gen_v8_4.v
+./integrate_1.srcs/sources_1/ip/load1/sim/load1.v
+./integrate_1.srcs/sources_1/ip/load1/load1.dcp
+./integrate_1.srcs/sources_1/ip/load1/load1_stub.v
+./integrate_1.srcs/sources_1/ip/load1/load1_stub.vhdl
+./integrate_1.srcs/sources_1/ip/load1/load1_sim_netlist.v
+./integrate_1.srcs/sources_1/ip/load1/load1_sim_netlist.vhdl
+./integrate_1.srcs/sources_1/ip/load1/load1_ooc.xdc
+./integrate_1.srcs/sources_1/ip/load1/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./integrate_1.srcs/sources_1/ip/load1/synth/load1.vhd
+./integrate_1.srcs/sources_1/ip/load1/load1.xml
+./integrate_1.srcs/sources_1/ip/load1.coe
+
+<load2>
+./integrate_1.srcs/sources_1/ip/load2/load2.xci
+./integrate_1.srcs/sources_1/ip/load2/doc/blk_mem_gen_v8_4_changelog.txt
+./integrate_1.srcs/sources_1/ip/load2/load2.vho
+./integrate_1.srcs/sources_1/ip/load2/load2.veo
+./integrate_1.srcs/sources_1/ip/load2/summary.log
+./integrate_1.srcs/sources_1/ip/load2/misc/blk_mem_gen_v8_4.vhd
+./integrate_1.srcs/sources_1/ip/load2/load2.mif
+./integrate_1.srcs/sources_1/ip/load2/simulation/blk_mem_gen_v8_4.v
+./integrate_1.srcs/sources_1/ip/load2/sim/load2.v
+./integrate_1.srcs/sources_1/ip/load2/load2.dcp
+./integrate_1.srcs/sources_1/ip/load2/load2_stub.v
+./integrate_1.srcs/sources_1/ip/load2/load2_stub.vhdl
+./integrate_1.srcs/sources_1/ip/load2/load2_sim_netlist.v
+./integrate_1.srcs/sources_1/ip/load2/load2_sim_netlist.vhdl
+./integrate_1.srcs/sources_1/ip/load2/load2_ooc.xdc
+./integrate_1.srcs/sources_1/ip/load2/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./integrate_1.srcs/sources_1/ip/load2/synth/load2.vhd
+./integrate_1.srcs/sources_1/ip/load2/load2.xml
+./integrate_1.srcs/sources_1/ip/load2.coe
+
+<load3>
+./integrate_1.srcs/sources_1/ip/load3/load3.xci
+./integrate_1.srcs/sources_1/ip/load3/doc/blk_mem_gen_v8_4_changelog.txt
+./integrate_1.srcs/sources_1/ip/load3/load3.vho
+./integrate_1.srcs/sources_1/ip/load3/load3.veo
+./integrate_1.srcs/sources_1/ip/load3/summary.log
+./integrate_1.srcs/sources_1/ip/load3/misc/blk_mem_gen_v8_4.vhd
+./integrate_1.srcs/sources_1/ip/load3/load3.mif
+./integrate_1.srcs/sources_1/ip/load3/simulation/blk_mem_gen_v8_4.v
+./integrate_1.srcs/sources_1/ip/load3/sim/load3.v
+./integrate_1.srcs/sources_1/ip/load3/load3.dcp
+./integrate_1.srcs/sources_1/ip/load3/load3_stub.v
+./integrate_1.srcs/sources_1/ip/load3/load3_stub.vhdl
+./integrate_1.srcs/sources_1/ip/load3/load3_sim_netlist.v
+./integrate_1.srcs/sources_1/ip/load3/load3_sim_netlist.vhdl
+./integrate_1.srcs/sources_1/ip/load3/load3_ooc.xdc
+./integrate_1.srcs/sources_1/ip/load3/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./integrate_1.srcs/sources_1/ip/load3/synth/load3.vhd
+./integrate_1.srcs/sources_1/ip/load3/load3.xml
+./integrate_1.srcs/sources_1/ip/load3.coe
+
+<load4>
+./integrate_1.srcs/sources_1/ip/load4/load4.xci
+./integrate_1.srcs/sources_1/ip/load4/doc/blk_mem_gen_v8_4_changelog.txt
+./integrate_1.srcs/sources_1/ip/load4/load4.vho
+./integrate_1.srcs/sources_1/ip/load4/load4.veo
+./integrate_1.srcs/sources_1/ip/load4/summary.log
+./integrate_1.srcs/sources_1/ip/load4/misc/blk_mem_gen_v8_4.vhd
+./integrate_1.srcs/sources_1/ip/load4/load4.mif
+./integrate_1.srcs/sources_1/ip/load4/simulation/blk_mem_gen_v8_4.v
+./integrate_1.srcs/sources_1/ip/load4/sim/load4.v
+./integrate_1.srcs/sources_1/ip/load4/load4.dcp
+./integrate_1.srcs/sources_1/ip/load4/load4_stub.v
+./integrate_1.srcs/sources_1/ip/load4/load4_stub.vhdl
+./integrate_1.srcs/sources_1/ip/load4/load4_sim_netlist.v
+./integrate_1.srcs/sources_1/ip/load4/load4_sim_netlist.vhdl
+./integrate_1.srcs/sources_1/ip/load4/load4_ooc.xdc
+./integrate_1.srcs/sources_1/ip/load4/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./integrate_1.srcs/sources_1/ip/load4/synth/load4.vhd
+./integrate_1.srcs/sources_1/ip/load4/load4.xml
+./integrate_1.srcs/sources_1/ip/load4.coe
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+<bg1st>
+None
+
+<bg2nd>
+None
+
+<bg3rd>
+None
+
+<load1>
+None
+
+<load2>
+None
+
+<load3>
+None
+
+<load4>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/vivado.jou
+Archived Location = ./integrate_1/vivado.jou
+
+Source File = C:/Users/brian/Downloads/Telegram Desktop/losescreen_logic.xpr/integrate_1/vivado.log
+Archived Location = ./integrate_1/vivado.log
+
+Section (5) - CONFIGURATION SETTINGS/FILES
+------------------------------------------
+List of configuration settings/files that were added to the archived project:-
+
+
