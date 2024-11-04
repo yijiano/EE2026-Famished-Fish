@@ -4,6 +4,6 @@
 ## Contributors
 
 - [Zhang Yijian](https://github.com/yijiano)
-- [Brian Chan]()
+- [Brian Chan](https://github.com/brianchanshiyuan)
 - [Cai Jiali](https://github.com/kemilii)
 - [Hoe Zhan Hao](https://github.com/H-ZhanHao)
